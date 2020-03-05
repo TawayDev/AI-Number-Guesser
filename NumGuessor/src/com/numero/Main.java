@@ -1,6 +1,6 @@
 package com.numero;
 // I AM FULLY AWARE THAT MY CODE IS SPAGHETTI AND IT COULD BE MADE EASIER AND MORE EFFICIENT BUT I AM NOT THE BEST PROGRAMMER UNDER THE SUN.
-// CODE WRITTEN BY GITHUB USER ITSJERAS.
+// CODE WRITTEN BY GITHUB USER ITSJERAS. (https://github.com/itsJeras/AI-Number-Guesser)
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {

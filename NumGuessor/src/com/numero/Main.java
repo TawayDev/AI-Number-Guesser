@@ -9,9 +9,9 @@ public class Main {
         boolean discovered = false;
         variables.counter = 0;
         // Generate guessed number:
-        variables.guessedNum = genNum(0,99999);
+        variables.guessedNum = genNum(0,2147483646);
         variables.smallerNumBorder = 0;
-        variables.largerNumBorder = 99999;
+        variables.largerNumBorder = 2147483646;
         variables.startPoint = true;
         variables.startPointFound = false;
         while (!discovered){

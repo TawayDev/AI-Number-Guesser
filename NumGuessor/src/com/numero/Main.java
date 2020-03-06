@@ -1,6 +1,6 @@
 package com.numero;
 // I AM FULLY AWARE THAT MY CODE IS SPAGHETTI AND IT COULD BE MADE EASIER AND MORE EFFICIENT BUT I AM NOT THE BEST PROGRAMMER UNDER THE SUN.
-// CODE WRITTEN BY GITHUB USER ITSJERAS. (https://github.com/itsJeras/AI-Number-Guesser)
+// https://github.com/itsJeras/AI-Number-Guesser
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
@@ -25,6 +25,8 @@ public class Main {
             variables.startPointFound = true;
             System.out.println("Small num border: " + variables.smallerNumBorder);
             System.out.println("Large num border: " + variables.largerNumBorder);
+            variables.difference = variables.largerNumBorder - variables.smallerNumBorder;
+            System.out.println("Num difference between small and larger border is: " + variables.difference);
             System.out.println("Guessed num: " + variables.guessedNum);
             System.out.println("+----------------------------------------------------+");
             // Breaking the loop:
@@ -92,5 +94,6 @@ public class Main {
         public static int GNum;
         public static boolean startPoint;
         public static boolean startPointFound;
+        public static int difference;
     }
 }
